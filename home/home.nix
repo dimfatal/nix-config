@@ -1,7 +1,7 @@
 { pkgs, lib, ... }:
 
 let
-  username = "gvolpe";
+  username = "dimfatal";
   homeDirectory = "/home/${username}";
   configHome = "${homeDirectory}/.config";
 
@@ -70,9 +70,9 @@ let
   ];
 
   gnomePkgs = with pkgs.gnome; [
-    eog      # image viewer
-    evince   # pdf reader
-    gnome-disk-utility
+    # eog      # image viewer
+    # evince   # pdf reader
+    # gnome-disk-utility
     nautilus # file manager
   ];
 in
@@ -80,7 +80,7 @@ in
   programs.home-manager.enable = true;
 
   imports = lib.concatMap import [
-    ./modules
+    # ./modules
     ./programs
     ./scripts
     ./services
@@ -109,5 +109,5 @@ in
   systemd.user.startServices = "sd-switch";
 
   # notifications about home-manager news
-  news.display = "silent";
+  # news.display = "silent";
 }

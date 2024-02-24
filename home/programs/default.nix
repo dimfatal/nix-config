@@ -47,8 +47,8 @@ let
       };
 
       # programs with custom modules
-      megasync.enable = true;
-      spotify.enable = true;
+      # megasync.enable = true;
+      # spotify.enable = true;
     };
   };
 in
@@ -67,7 +67,7 @@ in
   ./ngrok
   ./orage
   ./rofi
-  ./signal
+  # ./signal
   ./statix
   ./xmonad
   ./yubikey

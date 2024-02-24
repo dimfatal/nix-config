@@ -16,7 +16,7 @@ in
   ./networkmanager
   ./picom
   ./polybar
-  ./screenlocker
+  # ./screenlocker
   ./udiskie
   more
 ]

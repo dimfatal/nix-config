@@ -16,7 +16,7 @@ let
 
   mainBar = if specialArgs.hidpi then hdmiBar else laptopBar;
 
-  openGithub = "${lib.getExe pkgs.firefox-beta-bin} -new-tab https\\://github.com/notifications";
+  # openGithub = "${lib.getExe pkgs.firefox-beta-bin} -new-tab https\\://github.com/notifications";
 
   mypolybar = pkgs.polybar.override {
     alsaSupport   = true;
@@ -51,13 +51,13 @@ let
     label = %{A1:${openCalendar}:}%time%%{A}
   '';
 
-  github = ''
-    [module/clickable-github]
-    inherit = module/github
-    token = ''${file:${../../secrets/github-token}}
-    user = gvolpe
-    label = %{A1:${openGithub}:}  %notifications%%{A}
-  '';
+  # github = ''
+  #   [module/clickable-github]
+  #   inherit = module/github
+  #   token = ''${file:${../../secrets/github-token}}
+  #   user = gvolpe
+  #   label = %{A1:${openGithub}:}  %notifications%%{A}
+  # '';
 
   keyboard = ''
     [module/clickable-keyboard]
@@ -87,7 +87,7 @@ let
     tail = true
   '';
 
-  customMods = mainBar + bctl + cal + github + keyboard + mpris + xmonad;
+  customMods = mainBar + bctl + cal + keyboard + mpris + xmonad ; #+ github
 in
 {
   home.packages = with pkgs; [

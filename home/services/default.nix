@@ -11,12 +11,12 @@ let
   };
 in
 [
-  ./dunst
+  #./dunst
   ./gpg-agent
   ./networkmanager
-  ./picom
+ # ./picom
   ./polybar
   # ./screenlocker
-  ./udiskie
+ # ./udiskie
   more
 ]

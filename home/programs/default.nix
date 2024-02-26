@@ -61,7 +61,7 @@ in
   ./fish
   ./md-toc
   ./mimeo
-  ./mpv
+  # ./mpv
   ./neofetch
   ./neovim-ide
   ./ngrok

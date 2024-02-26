@@ -56,7 +56,7 @@ in
   ./alacritty
   ./autorandr
   # ./browsers/firefox.nix
-  ./dconf
+  # ./dconf
   ./git
   ./fish
   ./md-toc

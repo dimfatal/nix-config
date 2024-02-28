@@ -31,6 +31,7 @@ The `home.nix` file contains details about all the software I use, but here's a 
 | GTK Icon Theme | [Beauty Line](https://www.gnome-look.org/p/1425426/) |
 | Terminal Font  | [JetBrainsMono](https://www.jetbrains.com/lp/mono/) | 
 | alternative Font | [Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Ubuntu/Medium/UbuntuNerdFont-Medium.ttf) |
+| alternative Font | [Jet Brains Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Ligatures/Medium) |
 
 ## Structure
 

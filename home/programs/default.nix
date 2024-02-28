@@ -53,7 +53,7 @@ let
   };
 in
 [
-  ./alacritty
+  #./alacritty
   # ./autorandr
   # ./browsers/firefox.nix
   # ./dconf

@@ -29,7 +29,7 @@ The `home.nix` file contains details about all the software I use, but here's a 
 | :------------- | :----------: |
 | GTK Theme      | [Juno Ocean](https://github.com/EliverLara/Juno) |
 | GTK Icon Theme | [Beauty Line](https://www.gnome-look.org/p/1425426/) |
-| Terminal Font  | [JetBrainsMono](https://www.jetbrains.com/lp/mono/) |
+| Terminal Font  | [JetBrainsMono](https://www.jetbrains.com/lp/mono/) | - [use this instead](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Ubuntu/Medium/UbuntuNerdFont-Medium.ttf)
 
 ## Structure
 

@@ -6,7 +6,7 @@ simplified nix configuration applied for ubuntu
 ### Home Manager
 
 ```console
-$ nix build github:gvolpe/nix-config#homeConfigurations.gvolpe-edp.activationPackage
+$ nix build github:dimfatal/nix-config#homeConfigurations.gvolpe-edp.activationPackage
 $ result/activate
 ```
 

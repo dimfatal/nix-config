@@ -55,7 +55,7 @@ in
 [
   #./alacritty
   # ./autorandr
-  # ./browsers/firefox.nix
+  ./browsers/firefox.nix
   # ./dconf
   ./git
   ./fish

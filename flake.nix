@@ -4,10 +4,10 @@
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
 
-    # rycee-nurpkgs = {
-    #   url = gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons;
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
+    rycee-nurpkgs = {
+      url = gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons;
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     nurpkgs.url = github:nix-community/NUR;
 
@@ -79,8 +79,8 @@
       extraArgs = { hidpi }: {
         inherit hidpi;
         inherit (inputs) gh-md-toc penguin-fox;
-        # inherit (inputs.rycee-nurpkgs.lib.${system}) buildFirefoxXpiAddon;
-        # addons = pkgs.nur.repos.rycee.firefox-addons;
+        inherit (inputs.rycee-nurpkgs.lib.${system}) buildFirefoxXpiAddon;
+        addons = pkgs.nur.repos.rycee.firefox-addons;
       };
     in
     {

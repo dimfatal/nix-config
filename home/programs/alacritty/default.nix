@@ -1,12 +1,15 @@
 { pkgs, specialArgs, ... }:
 
 let
-  fontSize = if specialArgs.hidpi then 10 else 8;
+ # fontSize = if specialArgs.hidpi then 10 else 8;
 in
 {
   programs.alacritty = {
     enable = true;
     settings = {
+      #import = [
+      #  "~/.config/alacritty/themes/themes/gruvbox_material_medium_dark.toml"
+      #]
       bell = {
         animation = "EaseOutExpo";
         duration = 5;
@@ -14,8 +17,8 @@ in
       };
       colors = {
         primary = {
-          background = "#040404";
-          foreground = "#c5c8c6";
+          background = "#1b1b1b";
+          foreground = "#ebdbb2";
         };
       };
       font = {
@@ -23,7 +26,7 @@ in
           family = "JetBrainsMono Nerd Font";
           style = "Medium";
         };
-        size = fontSize;
+        size = 16;
       };
       keyboard.bindings = [
         { key = 53; mods = "Shift"; mode = "Vi"; action = "SearchBackward"; }
@@ -42,7 +45,7 @@ in
       shell.program = "${pkgs.fish}/bin/fish";
       window = {
         decorations = "full";
-        opacity = 0.85;
+        opacity = 0.98;
         padding = {
           x = 5;
           y = 5;

@@ -22,7 +22,7 @@
 
     neovim-flake = {
       #url = git+file:///home/gvolpe/workspace/neovim-flake;
-      url = github:gvolpe/neovim-flake;
+      url = github:dimfatal/neovim-flake;
       inputs.nixpkgs.follows = "nixpkgs";
     };
 

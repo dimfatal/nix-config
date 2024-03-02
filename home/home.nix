@@ -102,6 +102,7 @@ in
       # BROWSER = "${lib.getExe pkgs.firefox-beta-bin}";
       DISPLAY = ":0";
       EDITOR = "nvim";
+      LANG = "en_US.UTF-8";
     };
   };
 

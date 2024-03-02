@@ -54,7 +54,8 @@ let
     ranger               # terminal file explorer
     ripgrep              # fast grep
     screenkey            # shows keypresses on screen
-    # simple-scan          # scanner gui
+    # simple-scan          # scanner GUI
+    stow
     simplescreenrecorder # screen recorder gui
     # skypeforlinux        # messaging client
     # slack                # messaging client

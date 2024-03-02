@@ -12,7 +12,7 @@ let
 in
 [
   #./dunst
-  ./gpg-agent
+  #./gpg-agent
   ./networkmanager
  # ./picom
   ./polybar

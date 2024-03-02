@@ -69,7 +69,7 @@ in
   ./rofi
   # ./signal
   ./statix
-  ./xmonad
+  #./xmonad
   ./yubikey
   ./zathura
   more

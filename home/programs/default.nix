@@ -70,6 +70,7 @@ in
   # ./signal
   ./statix
   #./xmonad
+  ./tmux
   ./yubikey
   ./zathura
   more

@@ -76,8 +76,8 @@ in
         };
         theme = {
           enable = true;
-          name = "gruvbox";
-          style = "dark";
+          name = "rose-pine";
+          style = "moon";
           transparency = true;
         };
         autopairs.enable = true;

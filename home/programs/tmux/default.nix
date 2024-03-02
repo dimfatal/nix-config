@@ -1,7 +1,7 @@
 { lib, pkgs, ... }:
 
 let
-  plugins = pkgs.tmuxPlugins // pkgs.callPackage ./custom-plugins.nix { };
+  plugins = pkgs.tmuxPlugins;# // pkgs.callPackage ./custom-plugins.nix {};
   tmuxConf = lib.readFile ./default.conf;
 in
 {

@@ -76,8 +76,8 @@ in
         };
         theme = {
           enable = true;
-          name = "onedark";
-          style = "deep";
+          name = "gruvbox";
+          style = "dark";
           transparency = true;
         };
         autopairs.enable = true;

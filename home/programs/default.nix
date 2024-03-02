@@ -21,7 +21,7 @@ let
         fileWidgetCommand = "fd --type file --follow"; # FZF_CTRL_T_COMMAND
       };
 
-      gpg.enable = true;
+     # gpg.enable = true;
 
       htop = {
         enable = true;

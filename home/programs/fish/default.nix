@@ -3,9 +3,9 @@
 let
   fzfConfig = ''
     set -x FZF_DEFAULT_OPTS "--preview='bat --theme='gruvbox-dark' --color=always'" \n
-    set -x SKIM_DEFAULT_COMMAND "rg --files || fd || find ."
-    set -x FZF_ALT_C_COMMAND "fd --type d. --color=never --hidden"
-    set -x FZF_ALT_C_OPTS "--preview 'tree -C {} | head -50'"
+    set -x SKIM_DEFAULT_COMMAND "rg --files || fd || find ." \n
+    set -x FZF_ALT_C_COMMAND "fd --type d. --color=never --hidden" \n
+    set -x FZF_ALT_C_OPTS "--preview 'tree -C {} | head -50'" 
   '';
 
   themeConfig = ''

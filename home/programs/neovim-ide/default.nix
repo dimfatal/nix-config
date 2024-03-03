@@ -66,6 +66,21 @@ in
           style = "lotus";
           transparency = true;
         };
+        visuals = {
+          enable = true;
+          nvimWebDevicons.enable = true;
+          lspkind.enable = true;
+          indentBlankline = {
+            enable = true;
+            fillChar = "";
+            eolChar = "";
+            showCurrContext = true;
+          };
+          cursorWordline = {
+            enable = true;
+            lineTimeout = 0;
+          };
+        };
         autopairs.enable = true;
         autocomplete.enable = true;
         filetree.nvimTreeLua = {

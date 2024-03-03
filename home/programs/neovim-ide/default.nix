@@ -63,7 +63,7 @@ in
         theme = {
           enable = true;
           name = "kanagawa";
-          style = "lotus";
+          style = "dragon";
           transparency = true;
         };
         visuals = {

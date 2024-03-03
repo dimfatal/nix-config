@@ -2,7 +2,7 @@
 
 let
   fzfConfig = ''
-    set -x FZF_DEFAULT_OPTS "--preview='bat {} --color=always'" \n
+    set -x FZF_DEFAULT_OPTS "--preview='bat --theme='gruvbox-dark' --color=always'" \n
     set -x SKIM_DEFAULT_COMMAND "rg --files || fd || find ."
   '';
 

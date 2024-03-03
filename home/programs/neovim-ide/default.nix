@@ -76,8 +76,8 @@ in
         };
         theme = {
           enable = true;
-          name = "rose-pine";
-          style = "moon";
+          name = "kanagawa";
+          style = "lotus";
           transparency = true;
         };
         autopairs.enable = true;

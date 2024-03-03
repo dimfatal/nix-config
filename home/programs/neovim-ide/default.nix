@@ -55,21 +55,7 @@ in
         };
         plantuml.enable = true;
         fx.automaton.enable = true;
-        visuals = {
-          enable = true;
-          nvimWebDevicons.enable = true;
-          lspkind.enable = true;
-          indentBlankline = {
-            enable = true;
-            fillChar = "";
-            eolChar = "";
-            showCurrContext = true;
-          };
-          cursorWordline = {
-            enable = true;
-            lineTimeout = 0;
-          };
-        };
+       
         statusline.lualine = {
           enable = true;
           theme = "onedark";

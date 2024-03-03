@@ -68,11 +68,11 @@ in
       "*.mill-version" # used by metals
       "*.jvmopts" # should be local to every project
     ];
-    signing = {
-      key = "121D4302A64B2261";
-      signByDefault = true;
-    };
-    userEmail = "volpegabriel@gmail.com";
-    userName = "Gabriel Volpe";
+    #signing = {
+    #  key = "121D4302A64B2261";
+    #  signByDefault = true;
+    #};
+    userEmail = "aleksandrov.d89@gmail.com";
+    userName = "Dmitrii Aleksandrov";
   } // (pkgs.sxm.git or { });
 }

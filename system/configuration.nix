@@ -26,7 +26,7 @@ in
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.dimfatal = {
-    #isNormalUser = true;
+    isNormalUser = true;
     # wheel for 'sudo', uucp for bazecor to access ttyAMC0 (keyboard firmware updates)
     extraGroups = [ "docker" ];
     shell = pkgs.fish;

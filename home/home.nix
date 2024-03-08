@@ -18,6 +18,7 @@ let
     cowsay               # cowsay fortune teller with random images
     # dconf2nix            # dconf (gnome) files to nix converter
     dig                  # dns command-line tool
+    docker
     docker-compose       # docker manager
     dive                 # explore docker layers
     # drawio               # diagram design

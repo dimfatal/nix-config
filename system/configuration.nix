@@ -15,6 +15,8 @@ in
 {
   #boot.loader.systemd-boot.enable = true;
   #boot.loader.efi.canTouchEfiVariables = true;
+  fileSystems."/" = { device = "/dev/sdc"; fsType = "ext4"; };
+ 
   boot.loader.grub.device = "nodev";
   # enable docker
   virtualisation.docker.enable = true;

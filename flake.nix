@@ -87,6 +87,9 @@
       homeConfigurations =
         import ./outputs/home-conf.nix { inherit inputs system pkgs extraArgs; };
 
+      osConfiguration = 
+        import ./outputs/nix-os.nix { inherit inputs system pkgs extraArgs; };
+
       packages.${system} = {
         inherit (pkgs) bazecor metals metals-updater;
       };

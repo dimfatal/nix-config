@@ -66,7 +66,7 @@ let
     # vlc                  # media player
     xsel                 # clipboard support (also for neovim)
     # zoom-us              # message client
-
+    scala-cli
     # haskell packages
     haskellPackages.nix-tree # visualize nix dependencies
   ];

@@ -122,10 +122,6 @@ in
           enable = true;
           glow.enable = true;
         };
-        chatgpt = {
-          enable = true;
-          inherit openaiApiKey;
-        };
         git = {
           enable = true;
           gitsigns.enable = true;
